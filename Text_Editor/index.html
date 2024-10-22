@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Text Styler</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Styler</h1>
+        <p id="textParagraph">This is a sample paragraph. Change my style!</p>
+        <br>
+        <label for="fontSelect">Font Type:</label>
+        <select id="fontSelect">
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+        </select>
+        <br>
+        <label for="sizeSelect">Font Size:</label>
+        <select id="sizeSelect">
+            <option value="16px">Small</option>
+            <option value="20px">Medium</option>
+            <option value="24px">Large</option>
+            <option value="28px">Extra Large</option>
+        </select>
+        <br>
+        <label for="colorPicker">Text Color:</label>
+        <input type="color" id="colorPicker" value="#000000">
+        <br>
+        <button id="applyButton">Apply Styles</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

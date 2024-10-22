@@ -1,0 +1,24 @@
+body {
+    background-color: #000; /* black background */
+  }
+  
+  .container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .combo-box {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .button {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+  }

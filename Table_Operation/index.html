@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Table Operations</h1>
+        <table id="myTable">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+            </tr>
+            <tr>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+                <td>Cell 6</td>
+            </tr>
+        </table>
+        <div class="controls">
+            <label for="borderWidth">Border Width:</label>
+            <select id="borderWidth" onchange="changeBorderWidth(this.value)">
+                <option value="1">1px</option>
+                <option value="2">2px</option>
+                <option value="3">3px</option>
+                <option value="4">4px</option>
+                <option value="5">5px</option>
+            </select>
+            <br>
+            <label for="foregroundColor">Foreground Color:</label>
+            <input type="color" id="foregroundColor" onchange="changeForegroundColor(this.value)">
+            <br>
+            <label for="backgroundColor">Background Color:</label>
+            <input type="color" id="backgroundColor" onchange="changeBackgroundColor(this.value)">
+            <br>
+            <label for="textAlign">Text Align:</label>
+            <select id="textAlign" onchange="changeTextAlign(this.value)">
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="center">Center</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
